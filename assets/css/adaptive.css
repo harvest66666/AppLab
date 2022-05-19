@@ -16,15 +16,35 @@
 
 @media (max-width: 1260px) {
 	/* INTRO */
-	.intro__iphone img{
-		width:  85%;
+	.intro__item {
+		line-height: 1.2;
+		left: 51px;
+		top: -37px;
 	}
-	/* .intro__title {
+	.intro__suptitle {
+		width: 65%;
+	}
+	.intro__iphone img{
+		width:  90%;
+	}    
+	.intro__iphone {
+		right: -25px;
+	}   
+	.intro__title {
 		font-size: 53px;
-	} */
+	}
+	.intro__text {
+		font-size: 17px;
+	}
+	.intro__button {
+    margin: 25px 0;
+	}
+
+	/* INTRO ======================== INTRO */
+
 }
 @media (max-width: 1120px) {
-	/* INTRO */
+	/*! INTRO */
 	.container {
 		width: 100%;
 		max-width: 1050px;
@@ -49,13 +69,123 @@
 	}
 
 }
-@media (max-width: 1012px) {
-	/* INTRO */
-	.intro__phone {
-		margin: 0 0 0 25px;
+@media (max-width: 1095px) {
+	/* !HEADER */
+	.header__logo {
+		font-size: 27px;
 	}
+	.nav__link {
+		font-size: 14px;
+	}
+	.btn {
+		font-size: 14px;
+		padding: 16px 36px;
+	}
+	/* !==========HEADER=========== */
+
+	/*! INTRO */
+
+	
+
+	.intro__iphone {
+		right: -41px;
+		bottom: 43px;
+	}
+	.intro__item {
+		left: 67px;
+    	top: -81px;
+	}
+
+}
+
+@media(max-width:1020px) {
+	/* !HEADER */
+	.header__logo {
+		font-size: 25px;
+	}
+	.nav__link::after {
+		display: none;
+	}
+
+	.intro__iphone img {
+		width: 70%;
+	}
+
+	.intro__iphone {
+    right: -65px;
+	}
+
+	.intro__suptitle {
+		font-size: 14px;
+		width: 61%;
+		height: 29px;
+	}
+	
+	.intro__title {
+		font-size: 31px;
+	}
+
+	.intro__text {
+		font-size: 11px;
+	}
+
+	.intro__btn-text {
+		font-size: 13px;
+	}
+
+	/* ==========HEADER========== */
+}
+
+@media(max-width:905px) {
+	.intro__suptitle {
+		width: 265px;
+	}
+
+	.nav__link {
+		display: none;
+	}
+
+	.header__logo {
+		font-size: 30px;
+	}
+
+	.header__btn {
+		font-size: 16px;
+		padding: 20px 40px;
+		margin-right: 40px
+	}
+}
+
+@media (max-width: 853px) {
+	.intro__iphone {
+		right: -86px;
+	}
+}
+
+@media (max-width:751px) {
+	.intro__iphone img {
+		width: 65%;
+		right: -110px;
+	}
+
+	.intro__btn-text {
+		display: none;
+	}
+}
+
+@media (max-width:715px) {
 	.intro__inner {
-		margin: 0 -25px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.intro__item {
+		top: 110px;
+		left: 0;
+	}
+
+	.intro__iphone {
+		top: 110px;
 	}
 
 }
